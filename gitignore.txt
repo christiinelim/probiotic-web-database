@@ -1,0 +1,911 @@
+*~
+
+# temporary files which can be created if a process still has a handle open of a deleted file
+.fuse_hidden*
+
+# KDE directory preferences
+.directory
+
+# Linux trash folder which might appear on any partition or disk
+.Trash-*
+
+# .nfs files are created when an open file is removed but is still being accessed
+.nfs*
+
+##### MacOS
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+##### Backup
+*.bak
+*.gho
+*.ori
+*.orig
+*.tmp
+
+##### GPG
+secring.*
+
+##### Dropbox
+# Dropbox settings and caches
+.dropbox
+.dropbox.attr
+.dropbox.cache
+
+##### SynopsysVCS
+# Waveform formats
+*.vcd
+*.vpd
+*.evcd
+*.fsdb
+
+# Default name of the simulation executable.  A different name can be
+# specified with this switch (the associated daidir database name is
+# also taken from here):  -o <path>/<filename>
+simv
+
+# Generated for Verilog and VHDL top configs
+simv.daidir/
+simv.db.dir/
+
+# Infrastructure necessary to co-simulate SystemC models with
+# Verilog/VHDL models.  An alternate directory may be specified with this
+# switch:  -Mdir=<directory_path>
+csrc/
+
+# Log file - the following switch allows to specify the file that will be
+# used to write all messages from simulation:  -l <filename>
+*.log
+
+# Coverage results (generated with urg) and database location.  The
+# following switch can also be used:  urg -dir <coverage_directory>.vdb
+simv.vdb/
+urgReport/
+
+# DVE and UCLI related files.
+DVEfiles/
+ucli.key
+
+# When the design is elaborated for DirectC, the following file is created
+# with declarations for C/C++ functions.
+vc_hdrs.h
+
+##### SVN
+.svn/
+
+##### Mercurial
+.hg/
+.hgignore
+.hgsigs
+.hgsub
+.hgsubstate
+.hgtags
+
+##### Bazaar
+.bzr/
+.bzrignore
+
+##### CVS
+/CVS/*
+**/CVS/*
+.cvsignore
+*/.cvsignore
+
+##### TortoiseGit
+# Project-level settings
+/.tgitconfig
+
+##### PuTTY
+# Private key
+*.ppk
+
+##### Vim
+# Swap
+[._]*.s[a-v][a-z]
+!*.svg  # comment out if you don't need vector files
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+
+# Session
+Session.vim
+Sessionx.vim
+
+# Temporary
+.netrwhist
+*~
+# Auto-generated tag files
+tags
+# Persistent undo
+[._]*.un~
+
+##### Emacs
+# -*- mode: gitignore; -*-
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# Org-mode
+.org-id-locations
+*_archive
+
+# flymake-mode
+*_flymake.*
+
+# eshell files
+/eshell/history
+/eshell/lastdir
+
+# elpa packages
+/elpa/
+
+# reftex files
+*.rel
+
+# AUCTeX auto folder
+/auto/
+
+# cask packages
+.cask/
+dist/
+
+# Flycheck
+flycheck_*.el
+
+# server auth directory
+/server/
+
+# projectiles files
+.projectile
+
+# directory configuration
+.dir-locals.el
+
+# network security
+/network-security.data
+
+##### SublimeText
+# Cache files for Sublime Text
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+
+# Workspace files are user-specific
+*.sublime-workspace
+
+# Project files should be checked into the repository, unless a significant
+# proportion of contributors will probably not be using Sublime Text
+# *.sublime-project
+
+# SFTP configuration file
+sftp-config.json
+sftp-config-alt*.json
+
+# Package control specific files
+Package Control.last-run
+Package Control.ca-list
+Package Control.ca-bundle
+Package Control.system-ca-bundle
+Package Control.cache/
+Package Control.ca-certs/
+Package Control.merged-ca-bundle
+Package Control.user-ca-bundle
+oscrypto-ca-bundle.crt
+bh_unicode_properties.cache
+
+# Sublime-github package stores a github token in this file
+# https://packagecontrol.io/packages/sublime-github
+GitHub.sublime-settings
+
+##### Notepad++
+# Notepad++ backups #
+*.bak
+
+##### TextMate
+*.tmproj
+*.tmproject
+tmtags
+
+##### VisualStudioCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Local History for Visual Studio Code
+.history/
+
+##### NetBeans
+**/nbproject/private/
+**/nbproject/Makefile-*.mk
+**/nbproject/Package-*.bash
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+##### JetBrains
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm and Rider
+# Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
+
+# User-specific stuff
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+
+# Generated files
+.idea/**/contentModel.xml
+
+# Sensitive or high-churn files
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+.idea/**/dbnavigator.xml
+
+# Gradle
+.idea/**/gradle.xml
+.idea/**/libraries
+
+# Gradle and Maven with auto-import
+# When using Gradle or Maven with auto-import, you should exclude module files,
+# since they will be recreated, and may cause churn.  Uncomment if using
+# auto-import.
+# .idea/artifacts
+# .idea/compiler.xml
+# .idea/jarRepositories.xml
+# .idea/modules.xml
+# .idea/*.iml
+# .idea/modules
+# *.iml
+# *.ipr
+
+# CMake
+cmake-build-*/
+
+# Mongo Explorer plugin
+.idea/**/mongoSettings.xml
+
+# File-based project format
+*.iws
+
+# IntelliJ
+out/
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
+
+# JIRA plugin
+atlassian-ide-plugin.xml
+
+# Cursive Clojure plugin
+.idea/replstate.xml
+
+# Crashlytics plugin (for Android Studio and IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+
+# Editor-based Rest Client
+.idea/httpRequests
+
+# Android studio 3.1+ serialized cache file
+.idea/caches/build_file_checksums.ser
+
+##### Eclipse
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.recommenders
+
+# External tool builders
+.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+# PyDev specific (Python IDE for Eclipse)
+*.pydevproject
+
+# CDT-specific (C/C++ Development Tooling)
+.cproject
+
+# CDT- autotools
+.autotools
+
+# Java annotation processor (APT)
+.factorypath
+
+# PDT-specific (PHP Development Tools)
+.buildpath
+
+# sbteclipse plugin
+.target
+
+# Tern plugin
+.tern-project
+
+# TeXlipse plugin
+.texlipse
+
+# STS (Spring Tool Suite)
+.springBeans
+
+# Code Recommenders
+.recommenders/
+
+# Annotation Processing
+.apt_generated/
+.apt_generated_test/
+
+# Scala IDE specific (Scala & Java development for Eclipse)
+.cache-main
+.scala_dependencies
+.worksheet
+
+# Uncomment this line if you wish to ignore the project description file.
+# Typically, this file would be tracked if it contains build/dependency configurations:
+#.project
+
+##### Dreamweaver
+# DW Dreamweaver added files
+_notes
+_compareTemp
+configs/
+dwsync.xml
+dw_php_codehinting.config
+*.mno
+
+##### CodeKit
+# General CodeKit files to ignore
+config.codekit
+config.codekit3
+/min
+
+##### Gradle
+.gradle
+**/build/
+!src/**/build/
+
+# Ignore Gradle GUI config
+gradle-app.setting
+
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!gradle-wrapper.jar
+
+# Cache of project
+.gradletasknamecache
+
+# # Work around https://youtrack.jetbrains.com/issue/IDEA-116898
+# gradle/wrapper/gradle-wrapper.properties
+
+##### Composer
+composer.phar
+/vendor/
+
+# Commit your application's lock file https://getcomposer.org/doc/01-basic-usage.md#commit-your-composer-lock-file-to-version-control
+# You may choose to ignore a library lock file http://getcomposer.org/doc/02-libraries.md#lock-file
+composer.lock
+
+##### PHP CodeSniffer
+# gitignore for the PHP Codesniffer framework
+# website: https://github.com/squizlabs/PHP_CodeSniffer
+#
+# Recommended template: PHP.gitignore
+
+/wpcs/*
+
+##### SASS
+.sass-cache/
+*.css.map
+*.sass.map
+*.scss.map
+
+*~
+*.a
+*.la
+*.lo
+*.o
+*.so
+*ib_doublewrite
+*ib_logfile0
+*ib_logfile1
+*ibdata1
+
+*.cmake
+!/cmake/*.cmake
+*CMakeFiles/
+CMakeCache.txt
+Makefile
+
+.cproject
+.deps
+.metadata
+.project
+.settings
+.*.swp
+Docs/INFO_BIN
+Testing/
+VERSION.dep
+
+client/async_example
+client/decimal.c
+client/link_sources
+client/log_event.cc
+client/log_event.h
+client/log_event_old.cc
+client/log_event_old.h
+client/my_decimal.cc
+client/my_decimal.h
+client/my_user.c
+client/mysql
+client/mysql_plugin
+client/mysql_priv.h
+client/mysql_upgrade
+client/mysqladmin
+client/mysqlbinlog
+client/mysqlcheck
+client/mysqldump
+client/mysqlimport
+client/mysqlshow
+client/mysqlslap
+client/mysqltest
+client/rpl_constants.h
+client/rpl_record_old.cc
+client/rpl_record_old.h
+client/rpl_tblmap.cc
+client/rpl_tblmap.h
+client/rpl_utility.h
+
+config.guess
+config.log
+config.status
+config.sub
+configure
+
+dbug/dbug_analyze
+dbug/dbug-t
+dbug/example1.r
+dbug/example2.r
+dbug/example3.r
+dbug/factorial
+dbug/factorial.r
+dbug/main.r
+dbug/output1.r
+dbug/output2.r
+dbug/output3.r
+dbug/output4.r
+dbug/output5.r
+dbug/tests
+dbug/user.ps
+dbug/user.t
+
+extra/charset2html
+extra/comp_err
+extra/innochecksum
+extra/my_print_defaults
+extra/mysql_waitpid
+extra/perror
+extra/replace
+extra/resolve_stack_dump
+extra/resolveip
+
+include/sql_state.h.tmp
+include/config.h
+include/config.h.in
+include/link_sources
+include/my_config.h
+include/mysql_version.h
+include/mysqld_ername.h
+include/mysqld_ername.h.tmp
+include/mysqld_error.h
+include/mysqld_error.h.tmp
+include/readline
+include/sql_state.h
+include/stamp-h1
+
+install-sh
+
+instance
+
+log
+log.tests
+
+libmysql/libmysql_exports_file.cc
+libmysql/libmysql_versions.ld
+libmysql/libmysqlclient.so.18
+libmysql/libmysqlclient.so.18.0.0
+libmysql/libmysqlclient_r.so.18
+libmysql/libmysqlclient_r.so.18.0.0
+libmysql/mysqlclient_depends.c
+
+libmysqld/examples/mysql_client_test_embedded
+libmysqld/examples/mysql_embedded
+libmysqld/examples/mysqltest_embedded
+libmysqld/libmysqld.so.18
+libmysqld/libmysqld_exports_file.cc
+libmysqld/mysqlserver_depends.c
+
+mysql-test/collections/default.release
+mysql-test/collections/default.release.done
+mysql-test/lib/My/SafeProcess/my_safe_process
+mysql-test/mtr
+mysql-test/mysql-test-run
+mysql-test/var
+
+mysys/thr_lock
+
+pcre/CTestCustom.ctest
+pcre/config.h
+pcre/pcre.h
+pcre/pcre_chartables.c
+pcre/pcre_grep_test.sh
+pcre/pcre_test.sh
+pcre/pcregrep
+pcre/pcretest
+
+plugin/fulltext/.libs/
+
+scripts/comp_sql
+scripts/make_binary_distribution
+scripts/make_sharedlib_distribution
+scripts/msql2mysql
+scripts/mysql_config
+scripts/mysql_config.pl
+scripts/mysql_convert_table_format
+scripts/mysql_find_rows
+scripts/mysql_fix_extensions
+scripts/mysql_fix_privilege_tables
+scripts/mysql_fix_privilege_tables.sql
+scripts/mysql_fix_privilege_tables_sql.c
+scripts/mysql_install_db
+scripts/mysql_secure_installation
+scripts/mysql_setpermission
+scripts/mysql_zap
+scripts/mysqlaccess
+scripts/mysqlbug
+scripts/mysqld_multi
+scripts/mysqld_safe
+scripts/mysqldumpslow
+scripts/mysqlhotcopy
+scripts/mytop
+
+sql-bench/bench-count-distinct
+sql-bench/bench-init.pl
+sql-bench/compare-results
+sql-bench/copy-db
+sql-bench/crash-me
+sql-bench/graph-compare-results
+sql-bench/innotest1
+sql-bench/innotest1a
+sql-bench/innotest1b
+sql-bench/innotest2
+sql-bench/innotest2a
+sql-bench/innotest2b
+sql-bench/run-all-tests
+sql-bench/server-cfg
+sql-bench/test-ATIS
+sql-bench/test-alter-table
+sql-bench/test-big-tables
+sql-bench/test-connect
+sql-bench/test-create
+sql-bench/test-insert
+sql-bench/test-select
+sql-bench/test-table-elimination
+sql-bench/test-transactions
+sql-bench/test-wisconsin
+
+sql/.libs/
+sql/client.c
+sql/db.opt
+sql/gen_lex_hash
+sql/lex_hash.h
+sql/link_sources
+sql/mini_client_errors.c
+sql/my_time.c
+sql/my_user.c
+sql/mysql_tzinfo_to_sql
+sql/mysqld
+sql/pack.c
+sql/share/bulgarian/
+sql/share/czech/
+sql/share/danish/
+sql/share/dutch/
+sql/share/english/
+sql/share/errmsg.sys
+sql/share/estonian/
+sql/share/french/
+sql/share/german/
+sql/share/greek/
+sql/share/hungarian/
+sql/share/italian/
+sql/share/japanese-sjis/
+sql/share/japanese/
+sql/share/korean/
+sql/share/mysql/
+sql/share/norwegian-ny/
+sql/share/norwegian/
+sql/share/polish/
+sql/share/portuguese/
+sql/share/romanian/
+sql/share/russian/
+sql/share/serbian/
+sql/share/slovak/
+sql/share/spanish/
+sql/share/swedish/
+sql/share/ukrainian/
+sql/sql_builtin.cc
+sql/sql_yacc.cc
+sql/sql_yacc.h
+sql/sql_yacc.output
+
+storage/blackhole/.libs/
+storage/heap/hp_test1
+storage/heap/hp_test2
+storage/innobase/.libs/
+storage/maria/aria_chk
+storage/maria/aria_dump_log
+storage/maria/aria_ftdump
+storage/maria/aria_pack
+storage/maria/aria_read_log
+storage/maria/ma_rt_test
+storage/maria/ma_sp_test
+storage/maria/ma_test1
+storage/maria/ma_test2
+storage/maria/ma_test3
+storage/maria/unittest/ma_control_file-t
+storage/maria/unittest/ma_pagecache_consist_1k-t
+storage/maria/unittest/ma_pagecache_consist_1kHC-t
+storage/maria/unittest/ma_pagecache_consist_1kRD-t
+storage/maria/unittest/ma_pagecache_consist_1kWR-t
+storage/maria/unittest/ma_pagecache_consist_64k-t
+storage/maria/unittest/ma_pagecache_consist_64kHC-t
+storage/maria/unittest/ma_pagecache_consist_64kRD-t
+storage/maria/unittest/ma_pagecache_consist_64kWR-t
+storage/maria/unittest/ma_pagecache_rwconsist2_1k-t
+storage/maria/unittest/ma_pagecache_rwconsist_1k-t
+storage/maria/unittest/ma_pagecache_single_1k-t
+storage/maria/unittest/ma_pagecache_single_64k-t
+storage/maria/unittest/ma_pagecache_single_8k-t
+storage/maria/unittest/ma_test_loghandler-t
+storage/maria/unittest/ma_test_loghandler_first_lsn-t
+storage/maria/unittest/ma_test_loghandler_long-t
+storage/maria/unittest/ma_test_loghandler_max_lsn-t
+storage/maria/unittest/ma_test_loghandler_multigroup-t
+storage/maria/unittest/ma_test_loghandler_multithread-t
+storage/maria/unittest/ma_test_loghandler_noflush-t
+storage/maria/unittest/ma_test_loghandler_nologs-t
+storage/maria/unittest/ma_test_loghandler_pagecache-t
+storage/maria/unittest/ma_test_loghandler_purge-t
+storage/maria/unittest/ma_test_loghandler_readonly-t
+storage/maria/unittest/trnman-t
+storage/myisam/mi_test1
+storage/myisam/mi_test2
+storage/myisam/mi_test3
+storage/myisam/mi_test_all
+storage/myisam/myisam_ftdump
+storage/myisam/myisamchk
+storage/myisam/myisamlog
+storage/myisam/myisampack
+storage/myisam/rt_test
+storage/myisam/sp_test
+storage/perfschema/gen_pfs_lex_token
+storage/perfschema/pfs_lex_token.h
+storage/perfschema/unittest/pfs-t
+storage/perfschema/unittest/pfs_account-oom-t
+storage/perfschema/unittest/pfs_host-oom-t
+storage/perfschema/unittest/pfs_instr-oom-t
+storage/perfschema/unittest/pfs_instr-t
+storage/perfschema/unittest/pfs_instr_class-oom-t
+storage/perfschema/unittest/pfs_instr_class-t
+storage/perfschema/unittest/pfs_user-oom-t
+
+strings/conf_to_src
+
+tests/bug25714
+tests/insert_test
+tests/mysql_client_test
+tests/proxy_user_test
+tests/select_test
+tests/thread_test
+
+unittest/examples/no_plan-t
+unittest/examples/simple-t
+unittest/examples/skip-t
+unittest/examples/skip_all-t
+unittest/examples/todo-t
+unittest/my_decimal/my_decimal-t
+unittest/mysys/base64-t
+unittest/mysys/bitmap-t
+unittest/mysys/explain_filename-t
+unittest/mysys/lf-t
+unittest/mysys/ma_dyncol-t
+unittest/mysys/my_atomic-t
+unittest/mysys/my_malloc-t
+unittest/mysys/my_rdtsc-t
+unittest/mysys/my_vsnprintf-t
+unittest/mytap/t/basic-t
+unittest/sql/explain_filename-t
+unittest/sql/my_apc-t
+unittest/sql/sniper_modules-t
+unittest/strings/strings-t
+
+### macOS ###
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+### Node ###
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Diagnostic reports (https://nodejs.org/api/report.html)
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Directory for instrumented libs generated by jscoverage/JSCover
+lib-cov
+
+# Coverage directory used by tools like istanbul
+coverage
+*.lcov
+
+# nyc test coverage
+.nyc_output
+
+# Grunt intermediate storage (https://gruntjs.com/creating-plugins#storing-task-files)
+.grunt
+
+# Bower dependency directory (https://bower.io/)
+bower_components
+
+# node-waf configuration
+.lock-wscript
+
+# Compiled binary addons (https://nodejs.org/api/addons.html)
+build/Release
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# TypeScript v1 declaration files
+typings/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variables file
+.env
+.env.test
+
+# parcel-bundler cache (https://parceljs.org/)
+.cache
+
+# next.js build output
+.next
+
+# nuxt.js build output
+.nuxt
+
+# vuepress build output
+.vuepress/dist
+
+# Serverless directories
+.serverless/
+
+# FuseBox cache
+.fusebox/
+
+# DynamoDB Local files
+.dynamodb/
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+
+# End of https://www.gitignore.io/api/macos,visualstudiocode,node
+
+# Custom rules (everything added below won't be overriden by 'Generate .gitignore File' if you use 'Update' option)
+Typescript/*
+Webpack/*
